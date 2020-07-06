@@ -1,0 +1,32 @@
+{
+  "name": "bull-testing",
+  "version": "1.0.0",
+  "description": "bull-testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilahm/bull-testing.git"
+  },
+  "keywords": [
+    "bull"
+  ],
+  "author": "fadhilahm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadhilahm/bull-testing/issues"
+  },
+  "homepage": "https://github.com/fadhilahm/bull-testing#readme",
+  "dependencies": {
+    "bull": "^3.15.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
